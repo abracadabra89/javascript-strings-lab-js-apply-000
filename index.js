@@ -2,7 +2,7 @@ var greeting = "Hello, everybody!";
 function greeting(){
   return greeting;
 }
-var specialGuest = "Neil deGrasse Tyson"
+var specialGuest = "Neil deGrasse Tyson";
 
 var greetSpecialGuest = "Hello, " + ${specialGuest} + "!";
 
