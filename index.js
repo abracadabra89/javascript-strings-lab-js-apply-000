@@ -1,16 +1,16 @@
-var greeting = "Hello, everybody!";
-function greeting(){
-  return greeting;
-}
-var specialGuest = "Neil deGrasse Tyson";
-
-var greetSpecialGuest = `Hello, + ${specialGuest} + '!';
-
-var topic = "space";
-
-var conversation = 'Let's talk about' + `${topic}.`;
+ var greeting = "Hello, everybody!";
 
 
+ var specialGuest = "Neil deGrasse Tyson"	
+
+
+ var greetSpecialGuest = "" + specialGuest + "!";	var greetSpecialGuest = "Hello, " + specialGuest + "!";
+
+
+ var topic = "space";	var topic = "space";
+
+
+ var conversation = `${topic}`;	var conversation = `Let\'s talk about ${topic}.`;
 
 /*global concatenatedString, describe, interpolatedString, it, myString */
 
